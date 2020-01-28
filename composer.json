@@ -17,5 +17,13 @@
         "psr-4": {
             "Junaid\\Contact\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Junaid\\Contact\\Contact"
+            ]
+        }
     }
 }
